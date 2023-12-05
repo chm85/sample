@@ -24,3 +24,5 @@ engines:
         enabled: false
       E111:
         enabled: false
+      E201:
+        enabled: false
