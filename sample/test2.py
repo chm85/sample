@@ -8,6 +8,7 @@ import pandas as pd
 import mlflow
 from inventorium.conn import conn_str
 from inventorium.constants import CONSTANTS
+from sklearn import linear_model
 
 def doStuff(a, b):
     result = 0
