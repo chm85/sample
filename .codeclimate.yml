@@ -18,3 +18,7 @@ engines:
         enabled: false
       E202:
         enabled: false
+      E128:
+        enabled: false
+      E265:
+        enabled: false
