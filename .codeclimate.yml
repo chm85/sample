@@ -8,3 +8,5 @@ engines:
         enabled: false
       W291:
         enabled: false
+      E231:
+        enabled: false
