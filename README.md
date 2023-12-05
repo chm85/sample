@@ -7,10 +7,7 @@
         alt = "Release Status">
 </a>
 
-<a href="https://github.com/cmooney/sample/actions">
-    <img src="https://github.com/cmooney/sample/actions/workflows/main.yml/badge.svg?branch=release" alt="CI Status">
-</a>
-
+<a href="https://codeclimate.com/github/chm85/sample/maintainability"><img src="https://api.codeclimate.com/v1/badges/003d44f3af78f0ea7aa4/maintainability" /></a>
 <a href="https://sample.readthedocs.io/en/latest/?badge=latest">
     <img src="https://readthedocs.org/projects/sample/badge/?version=latest" alt="Documentation Status">
 </a>
