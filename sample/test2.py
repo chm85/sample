@@ -8,9 +8,14 @@ import pandas as pd
 import mlflow
 from inventorium.conn import conn_str
 from inventorium.constants import CONSTANTS
-from inventorium.utils import dbx_schema
-from shutil import move
-from datetime import datetime
+
+def doStuff(a, b):
+    result = 0
+    for i in range(0, a):
+        result += i
+    if b > 0:
+        result = result / b
+    return result
 
 spark.conf.set("spark.sql.execution.arrow.enabled", "true")
 pd.set_option('display.max_columns', None)
@@ -177,6 +182,9 @@ demand_variant_data = demand_variant_data[['material','materialvariant']].drop_d
 # COMMAND ----------
 
 pivot_df = dataset[['segment','category','subcategory','stylecodeid','material','parent_percent','alternate_percent','pa_forecast']]
+from inventorium.utils import dbx_schema
+from shutil import move
+from datetime import datetime
 
 # COMMAND ----------
 
