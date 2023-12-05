@@ -4,3 +4,5 @@ engines:
     checks:
       E501: # Line length checks
         enabled: false
+      E225:
+        enabled: false
