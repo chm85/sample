@@ -22,3 +22,5 @@ engines:
         enabled: false
       E265:
         enabled: false
+      E111:
+        enabled: false
