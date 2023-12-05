@@ -10,3 +10,11 @@ engines:
         enabled: false
       E231:
         enabled: false
+      E203:
+        enabled: false
+      E251:
+        enabled: false
+      W293:
+        enabled: false
+      E202:
+        enabled: false
