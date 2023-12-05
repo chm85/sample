@@ -1,0 +1,6 @@
+engines:
+  pep8:
+    enabled: true
+    checks:
+      E501: # Line length checks
+        enabled: false
